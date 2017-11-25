@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		185BEB5E1FC92AE600884382 /* UiCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 185BEB5C1FC92AE600884382 /* UiCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		185BEB671FC92C4700884382 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BEB661FC92C4700884382 /* Model.swift */; };
+		185BEB6B1FC92E9F00884382 /* UniversalFramework.sh in Resources */ = {isa = PBXBuildFile; fileRef = 185BEB6A1FC92E9F00884382 /* UniversalFramework.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		185BEB591FC92AE600884382 /* UiCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UiCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		185BEB5C1FC92AE600884382 /* UiCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UiCore.h; sourceTree = "<group>"; };
 		185BEB5D1FC92AE600884382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185BEB661FC92C4700884382 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		185BEB6A1FC92E9F00884382 /* UniversalFramework.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = UniversalFramework.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +34,7 @@
 		185BEB4F1FC92AE600884382 = {
 			isa = PBXGroup;
 			children = (
+				185BEB6A1FC92E9F00884382 /* UniversalFramework.sh */,
 				185BEB5B1FC92AE600884382 /* UiCore */,
 				185BEB5A1FC92AE600884382 /* Products */,
 			);
@@ -48,6 +53,7 @@
 			children = (
 				185BEB5C1FC92AE600884382 /* UiCore.h */,
 				185BEB5D1FC92AE600884382 /* Info.plist */,
+				185BEB661FC92C4700884382 /* Model.swift */,
 			);
 			path = UiCore;
 			sourceTree = "<group>";
@@ -74,6 +80,7 @@
 				185BEB551FC92AE600884382 /* Frameworks */,
 				185BEB561FC92AE600884382 /* Headers */,
 				185BEB571FC92AE600884382 /* Resources */,
+				185BEB6C1FC92F6100884382 /* Universal Framework */,
 			);
 			buildRules = (
 			);
@@ -95,6 +102,7 @@
 				TargetAttributes = {
 					185BEB581FC92AE600884382 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -121,16 +129,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185BEB6B1FC92E9F00884382 /* UniversalFramework.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		185BEB6C1FC92F6100884382 /* Universal Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Universal Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/UniversalFramework.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		185BEB541FC92AE600884382 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185BEB671FC92C4700884382 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +266,7 @@
 		185BEB621FC92AE600884382 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -250,6 +278,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Mohsen.UiCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -257,6 +286,7 @@
 		185BEB631FC92AE600884382 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
