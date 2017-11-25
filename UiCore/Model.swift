@@ -9,7 +9,6 @@
 import Foundation
 public class Model{
     public var name: [String]
-    
     public init() {
         name=["a","b"]
     }

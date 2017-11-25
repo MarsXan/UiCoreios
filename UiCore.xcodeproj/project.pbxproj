@@ -10,6 +10,7 @@
 		185BEB5E1FC92AE600884382 /* UiCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 185BEB5C1FC92AE600884382 /* UiCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		185BEB671FC92C4700884382 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BEB661FC92C4700884382 /* Model.swift */; };
 		185BEB6B1FC92E9F00884382 /* UniversalFramework.sh in Resources */ = {isa = PBXBuildFile; fileRef = 185BEB6A1FC92E9F00884382 /* UniversalFramework.sh */; };
+		185BEB951FC94D7A00884382 /* OrderJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185BEB941FC94D7A00884382 /* OrderJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		185BEB5D1FC92AE600884382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185BEB661FC92C4700884382 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		185BEB6A1FC92E9F00884382 /* UniversalFramework.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = UniversalFramework.sh; sourceTree = "<group>"; };
+		185BEB941FC94D7A00884382 /* OrderJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 				185BEB6A1FC92E9F00884382 /* UniversalFramework.sh */,
 				185BEB5B1FC92AE600884382 /* UiCore */,
 				185BEB5A1FC92AE600884382 /* Products */,
+				185BEB961FC94DE300884382 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,11 +54,19 @@
 		185BEB5B1FC92AE600884382 /* UiCore */ = {
 			isa = PBXGroup;
 			children = (
+				185BEB941FC94D7A00884382 /* OrderJSON.swift */,
 				185BEB5C1FC92AE600884382 /* UiCore.h */,
 				185BEB5D1FC92AE600884382 /* Info.plist */,
 				185BEB661FC92C4700884382 /* Model.swift */,
 			);
 			path = UiCore;
+			sourceTree = "<group>";
+		};
+		185BEB961FC94DE300884382 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185BEB951FC94D7A00884382 /* OrderJSON.swift in Sources */,
 				185BEB671FC92C4700884382 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +333,7 @@
 				185BEB631FC92AE600884382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -115,8 +115,47 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_UNAVAILABLE __attribute__((unavailable))
 #endif
 #if defined(__has_feature) && __has_feature(modules)
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+
+SWIFT_CLASS("_TtC6UiCore9OrderJSON")
+@interface OrderJSON : NSObject
+@property (nonatomic, copy) NSString * _Nullable customer_photo;
+@property (nonatomic, copy) NSString * _Nullable biker_photo;
+@property (nonatomic, copy) NSString * _Nullable title;
+@property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nullable price;
+@property (nonatomic, copy) NSString * _Nullable destination_address;
+@property (nonatomic, copy) NSString * _Nullable destination_latitude;
+@property (nonatomic, copy) NSString * _Nullable destination_longitude;
+@property (nonatomic, copy) NSString * _Nullable receiver_name;
+@property (nonatomic, copy) NSArray<NSString *> * _Nullable receiver_phones;
+@property (nonatomic, copy) NSString * _Nullable receiver_cell_phone;
+@property (nonatomic, copy) NSString * _Nullable status;
+@property (nonatomic, copy) NSString * _Nullable registration_number;
+@property (nonatomic, copy) NSString * _Nullable customer_order_verification;
+@property (nonatomic, copy) NSString * _Nullable req_source_delivered_date;
+@property (nonatomic, copy) NSString * _Nullable req_destination_delivered_date;
+@property (nonatomic, copy) NSString * _Nullable updated_at;
+@property (nonatomic, copy) NSString * _Nullable order_date;
+@property (nonatomic, copy) NSString * _Nullable vehicle_type_id;
+@property (nonatomic, copy) NSString * _Nullable vehicle_type;
+@property (nonatomic, copy) NSString * _Nullable biker_assign_date;
+@property (nonatomic, copy) NSString * _Nullable customer_name;
+@property (nonatomic, copy) NSString * _Nullable customer_last_name;
+@property (nonatomic, copy) NSString * _Nullable customer_cell_phone;
+@property (nonatomic, copy) NSString * _Nullable pay_in;
+@property (nonatomic, copy) NSString * _Nullable biker_name;
+@property (nonatomic, copy) NSString * _Nullable biker_last_name;
+@property (nonatomic, copy) NSString * _Nullable biker_id;
+@property (nonatomic, copy) NSString * _Nullable biker_cell_phone;
+@property (nonatomic, copy) NSString * _Nullable vehicle_number;
+@property (nonatomic, copy) NSString * _Nullable wage_pay_method;
+@property (nonatomic, copy) NSString * _Nullable items_pay_method;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)isEqual:(id _Nullable)object;
+@end
+
 #pragma clang diagnostic pop
