@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/apple/Library/Developer/Xcode/DerivedData/UiCore-fkyvitxftajyxwexjhslbonlwfqf/Build/Products/Debug-iphonesimulator/UiCore.framework/Headers",
+      'name': "/Users/apple/Library/Developer/Xcode/DerivedData/UiCore-fkyvitxftajyxwexjhslbonlwfqf/Build/Intermediates/ArchiveIntermediates/UiCore/BuildProductsPath/Release-iphonesimulator/UiCore.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "UiCore-Swift.h",
-          'external-contents': "/Users/apple/Library/Developer/Xcode/DerivedData/UiCore-fkyvitxftajyxwexjhslbonlwfqf/Build/Products/Debug-iphonesimulator/UiCore.framework/Headers/UiCore-Swift.h"
+          'external-contents': "/Users/apple/Library/Developer/Xcode/DerivedData/UiCore-fkyvitxftajyxwexjhslbonlwfqf/Build/Intermediates/ArchiveIntermediates/UiCore/BuildProductsPath/Release-iphonesimulator/UiCore.framework/Headers/UiCore-Swift.h"
         },
         {
           'type': 'file',
@@ -20,12 +20,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/apple/Library/Developer/Xcode/DerivedData/UiCore-fkyvitxftajyxwexjhslbonlwfqf/Build/Products/Debug-iphonesimulator/UiCore.framework/Modules",
+      'name': "/Users/apple/Library/Developer/Xcode/DerivedData/UiCore-fkyvitxftajyxwexjhslbonlwfqf/Build/Intermediates/ArchiveIntermediates/UiCore/BuildProductsPath/Release-iphonesimulator/UiCore.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/apple/Desktop/MyProjetcs/Test/UiCore/build/UiCore.build/Debug-iphonesimulator/UiCore.build/module.modulemap"
+          'external-contents': "/Users/apple/Desktop/MyProjetcs/Test/UiCore/build/UiCore.build/Release-iphonesimulator/UiCore.build/module.modulemap"
         }
       ]
     }

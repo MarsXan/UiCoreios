@@ -1,5 +1,4 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "fd85896d6d6dc19c48f0110a7e838ae7"
-build_time: [564905624, 2067000]
+options: "73cd47cc8c3389dfdfe0692c5e90f0b8"
+build_time: [564914474, 784416000]
 inputs:
-  "/Users/apple/Desktop/MyProjetcs/Test/UiCore/UiCore/Model.swift": [9223372036854775807, 0]
