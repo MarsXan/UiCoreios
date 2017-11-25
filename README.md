@@ -1,2 +1,0 @@
-# UiCoreios
-Test Project
