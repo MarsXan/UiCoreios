@@ -1,0 +1,10 @@
+framework module UiCore {
+  umbrella header "UiCore.h"
+
+  export *
+  module * { export * }
+}
+
+module UiCore.Swift {
+    header "UiCore-Swift.h"
+}
